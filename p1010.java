@@ -9,7 +9,9 @@ public class p1010{
 class Salary{
     Scanner a_teclado=new Scanner(System.in);
     double salary(){
-        a_teclado.nextLine();
-        return a_teclado.nextInt()*a_teclado.nextDouble()+a_teclado.nextInt()*a_teclado.nextDouble();
+	a_teclado.nextInt();
+	double v_suma = a_teclado.nextInt() * a_teclado.nextDouble();
+	a_teclado.nextInt();
+	return v_suma + a_teclado.nextInt() * a_teclado.nextDouble();
     }
 }
