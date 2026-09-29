@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p1019 {
+public class p1035 {
     public static void main(String[] args) {
         selection_test_1 object = new selection_test_1();
         object.m_read();
